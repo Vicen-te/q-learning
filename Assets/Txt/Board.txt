@@ -1,0 +1,24 @@
+# Board
+columns: 4
+rows: 4
+
+# column, row
+start: 0, 0
+goal: 3, 3
+
+# VisualsWalls
+# 0: empty, 1: up, 2: right.
+
+visuals:
+# columns: walls, walls, walls, ... 
+1: 3, 1, 1, 3, 2
+2: 2, 0, 2, 0, 2
+3: 2, 3, 0, 0, 2
+4: 3, 0, 1, 1, 2
+5: 1, 1, 1, 1, 0
+
+# Walls (walls are built from visual walls)
+# 0: empty, 2: down, 4: left, 8: up, 16: right
+
+reward:
+# TODO
